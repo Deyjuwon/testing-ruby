@@ -80,3 +80,17 @@ arr = [1,2,3,4,5]
 # end
 
 # hello('hello')
+
+class Car
+  @name
+  def initialize(name)
+    @name = name
+  end
+
+  def getName()
+    puts "The car name is #{@name}"
+  end
+end
+
+car = Car.new("Toyota")
+car.getName()
